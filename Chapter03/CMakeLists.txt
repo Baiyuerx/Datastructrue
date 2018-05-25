@@ -1,0 +1,1 @@
+add_executable(mian main.cpp Vector.h)

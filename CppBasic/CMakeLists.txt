@@ -1,0 +1,5 @@
+add_executable(swap swap.cpp)
+add_executable(big_five big_five.cpp)
+add_executable(vector matirx.cpp)
+add_executable(ex1_1 ex1_1.cpp ex1_1.h)
+add_executable(ones ones.cpp)

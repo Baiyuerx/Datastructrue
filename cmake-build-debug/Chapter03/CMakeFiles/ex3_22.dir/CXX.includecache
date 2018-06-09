@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/mnt/c/Users/lwb85/Documents/Document/Datastructrue/Chapter03/ex3_22.cpp
+iostream
+-
+string
+-
+stack
+-
+cstdlib
+-
+sstream
+-
+map
+-
+algorithm
+-
+

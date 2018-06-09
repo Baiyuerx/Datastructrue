@@ -114,8 +114,8 @@ public:
         return objects[theSize - 1];
     }
 
-    typedef Object *iterator;
-    typedef const Object *const_iterator;
+    typedef Object* iterator;
+    typedef const Object* const_iterator;
 
     iterator begin() {
         return &objects[0];

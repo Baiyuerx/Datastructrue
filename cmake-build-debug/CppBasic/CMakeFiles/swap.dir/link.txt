@@ -1,0 +1,1 @@
+/usr/bin/c++  -Wall -g   CMakeFiles/swap.dir/swap.cpp.o  -o swap 

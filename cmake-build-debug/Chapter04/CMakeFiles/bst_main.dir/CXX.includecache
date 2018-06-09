@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../lib/dsexceptions.h
+
+/mnt/c/Users/lwb85/Documents/Document/Datastructrue/Chapter04/BinarySearchTree.h
+algorithm
+-
+dsexceptions.h
+/mnt/c/Users/lwb85/Documents/Document/Datastructrue/Chapter04/dsexceptions.h
+
+/mnt/c/Users/lwb85/Documents/Document/Datastructrue/Chapter04/bst_main.cpp
+iostream
+-
+BinarySearchTree.h
+/mnt/c/Users/lwb85/Documents/Document/Datastructrue/Chapter04/BinarySearchTree.h
+

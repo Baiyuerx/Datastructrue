@@ -1,0 +1,1 @@
+/usr/bin/c++  -Wall -g   CMakeFiles/ex3_1.dir/ex3_1.cpp.o  -o ex3_1 

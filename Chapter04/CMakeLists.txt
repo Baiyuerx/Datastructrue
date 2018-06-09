@@ -1,0 +1,1 @@
+add_executable(bst_main bst_main.cpp BinarySearchTree.h Avl.h)

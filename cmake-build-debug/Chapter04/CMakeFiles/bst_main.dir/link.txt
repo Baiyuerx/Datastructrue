@@ -1,0 +1,1 @@
+/usr/bin/c++  -Wall -g   CMakeFiles/bst_main.dir/bst_main.cpp.o  -o bst_main 

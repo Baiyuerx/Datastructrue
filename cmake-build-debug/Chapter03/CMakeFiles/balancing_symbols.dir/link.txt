@@ -1,0 +1,1 @@
+/usr/bin/c++  -Wall -g   CMakeFiles/balancing_symbols.dir/balancing_symbols.cpp.o  -o balancing_symbols 

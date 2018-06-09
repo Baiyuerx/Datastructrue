@@ -1,0 +1,1 @@
+/usr/bin/c++  -Wall -g   CMakeFiles/eof.dir/eof.cpp.o  -o eof 

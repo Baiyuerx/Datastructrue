@@ -1,0 +1,1 @@
+/usr/bin/c++  -Wall -g   CMakeFiles/list_main.dir/list_main.cpp.o  -o list_main 

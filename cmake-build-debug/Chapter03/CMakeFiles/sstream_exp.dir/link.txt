@@ -1,0 +1,1 @@
+/usr/bin/c++  -Wall -g   CMakeFiles/sstream_exp.dir/sstream_exp.cpp.o  -o sstream_exp 

@@ -8,7 +8,9 @@ int main()
 {
     Vector<int> a(3);
     a.push_back(3);
-    std::cout<< a[2] << a.empty();
+	a.push_back(2);
+	a.push_back(1);
+	std::cout << a[3] << std::endl << a.size();
     return  0;
 }
 

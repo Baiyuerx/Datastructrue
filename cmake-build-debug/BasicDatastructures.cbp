@@ -1,0 +1,886 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="BasicDatastructures"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\CppBasic\;CMake Files\Chapter03\;CMake Files\Chapter04\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/mnt/c/Users/lwb85/Documents/Document/Datastructrue/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/lwb85/Documents/Document/Datastructrue/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/lwb85/Documents/Document/Datastructrue/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/lwb85/Documents/Document/Datastructrue/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/lwb85/Documents/Document/Datastructrue/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/mnt/c/Users/lwb85/Documents/Document/Datastructrue/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/lwb85/Documents/Document/Datastructrue/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/lwb85/Documents/Document/Datastructrue/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/lwb85/Documents/Document/Datastructrue/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/lwb85/Documents/Document/Datastructrue/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/mnt/c/Users/lwb85/Documents/Document/Datastructrue/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/lwb85/Documents/Document/Datastructrue/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/lwb85/Documents/Document/Datastructrue/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/lwb85/Documents/Document/Datastructrue/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/lwb85/Documents/Document/Datastructrue/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ones">
+				<Option output="/mnt/c/Users/lwb85/Documents/Document/Datastructrue/cmake-build-debug/CppBasic/ones" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/lwb85/Documents/Document/Datastructrue/cmake-build-debug/CppBasic"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/c/Users/lwb85/Documents/Document/Datastructrue/lib"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/lwb85/Documents/Document/Datastructrue/cmake-build-debug/CppBasic/Makefile&quot;  VERBOSE=1 ones"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/lwb85/Documents/Document/Datastructrue/cmake-build-debug/CppBasic/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/lwb85/Documents/Document/Datastructrue/cmake-build-debug/CppBasic/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/lwb85/Documents/Document/Datastructrue/cmake-build-debug/CppBasic/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ones/fast">
+				<Option output="/mnt/c/Users/lwb85/Documents/Document/Datastructrue/cmake-build-debug/CppBasic/ones" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/lwb85/Documents/Document/Datastructrue/cmake-build-debug/CppBasic"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/c/Users/lwb85/Documents/Document/Datastructrue/lib"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/lwb85/Documents/Document/Datastructrue/cmake-build-debug/CppBasic/Makefile&quot;  VERBOSE=1 ones/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/lwb85/Documents/Document/Datastructrue/cmake-build-debug/CppBasic/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/lwb85/Documents/Document/Datastructrue/cmake-build-debug/CppBasic/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/lwb85/Documents/Document/Datastructrue/cmake-build-debug/CppBasic/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="swap">
+				<Option output="/mnt/c/Users/lwb85/Documents/Document/Datastructrue/cmake-build-debug/CppBasic/swap" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/lwb85/Documents/Document/Datastructrue/cmake-build-debug/CppBasic"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/c/Users/lwb85/Documents/Document/Datastructrue/lib"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/lwb85/Documents/Document/Datastructrue/cmake-build-debug/CppBasic/Makefile&quot;  VERBOSE=1 swap"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/lwb85/Documents/Document/Datastructrue/cmake-build-debug/CppBasic/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/lwb85/Documents/Document/Datastructrue/cmake-build-debug/CppBasic/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/lwb85/Documents/Document/Datastructrue/cmake-build-debug/CppBasic/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="swap/fast">
+				<Option output="/mnt/c/Users/lwb85/Documents/Document/Datastructrue/cmake-build-debug/CppBasic/swap" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/lwb85/Documents/Document/Datastructrue/cmake-build-debug/CppBasic"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/c/Users/lwb85/Documents/Document/Datastructrue/lib"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/lwb85/Documents/Document/Datastructrue/cmake-build-debug/CppBasic/Makefile&quot;  VERBOSE=1 swap/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/lwb85/Documents/Document/Datastructrue/cmake-build-debug/CppBasic/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/lwb85/Documents/Document/Datastructrue/cmake-build-debug/CppBasic/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/lwb85/Documents/Document/Datastructrue/cmake-build-debug/CppBasic/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="round_up">
+				<Option output="/mnt/c/Users/lwb85/Documents/Document/Datastructrue/cmake-build-debug/CppBasic/round_up" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/lwb85/Documents/Document/Datastructrue/cmake-build-debug/CppBasic"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/c/Users/lwb85/Documents/Document/Datastructrue/lib"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/lwb85/Documents/Document/Datastructrue/cmake-build-debug/CppBasic/Makefile&quot;  VERBOSE=1 round_up"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/lwb85/Documents/Document/Datastructrue/cmake-build-debug/CppBasic/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/lwb85/Documents/Document/Datastructrue/cmake-build-debug/CppBasic/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/lwb85/Documents/Document/Datastructrue/cmake-build-debug/CppBasic/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="round_up/fast">
+				<Option output="/mnt/c/Users/lwb85/Documents/Document/Datastructrue/cmake-build-debug/CppBasic/round_up" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/lwb85/Documents/Document/Datastructrue/cmake-build-debug/CppBasic"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/c/Users/lwb85/Documents/Document/Datastructrue/lib"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/lwb85/Documents/Document/Datastructrue/cmake-build-debug/CppBasic/Makefile&quot;  VERBOSE=1 round_up/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/lwb85/Documents/Document/Datastructrue/cmake-build-debug/CppBasic/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/lwb85/Documents/Document/Datastructrue/cmake-build-debug/CppBasic/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/lwb85/Documents/Document/Datastructrue/cmake-build-debug/CppBasic/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="big_five">
+				<Option output="/mnt/c/Users/lwb85/Documents/Document/Datastructrue/cmake-build-debug/CppBasic/big_five" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/lwb85/Documents/Document/Datastructrue/cmake-build-debug/CppBasic"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/c/Users/lwb85/Documents/Document/Datastructrue/lib"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/lwb85/Documents/Document/Datastructrue/cmake-build-debug/CppBasic/Makefile&quot;  VERBOSE=1 big_five"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/lwb85/Documents/Document/Datastructrue/cmake-build-debug/CppBasic/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/lwb85/Documents/Document/Datastructrue/cmake-build-debug/CppBasic/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/lwb85/Documents/Document/Datastructrue/cmake-build-debug/CppBasic/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="big_five/fast">
+				<Option output="/mnt/c/Users/lwb85/Documents/Document/Datastructrue/cmake-build-debug/CppBasic/big_five" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/lwb85/Documents/Document/Datastructrue/cmake-build-debug/CppBasic"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/c/Users/lwb85/Documents/Document/Datastructrue/lib"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/lwb85/Documents/Document/Datastructrue/cmake-build-debug/CppBasic/Makefile&quot;  VERBOSE=1 big_five/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/lwb85/Documents/Document/Datastructrue/cmake-build-debug/CppBasic/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/lwb85/Documents/Document/Datastructrue/cmake-build-debug/CppBasic/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/lwb85/Documents/Document/Datastructrue/cmake-build-debug/CppBasic/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="vector">
+				<Option output="/mnt/c/Users/lwb85/Documents/Document/Datastructrue/cmake-build-debug/CppBasic/vector" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/lwb85/Documents/Document/Datastructrue/cmake-build-debug/CppBasic"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/c/Users/lwb85/Documents/Document/Datastructrue/lib"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/lwb85/Documents/Document/Datastructrue/cmake-build-debug/CppBasic/Makefile&quot;  VERBOSE=1 vector"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/lwb85/Documents/Document/Datastructrue/cmake-build-debug/CppBasic/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/lwb85/Documents/Document/Datastructrue/cmake-build-debug/CppBasic/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/lwb85/Documents/Document/Datastructrue/cmake-build-debug/CppBasic/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="vector/fast">
+				<Option output="/mnt/c/Users/lwb85/Documents/Document/Datastructrue/cmake-build-debug/CppBasic/vector" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/lwb85/Documents/Document/Datastructrue/cmake-build-debug/CppBasic"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/c/Users/lwb85/Documents/Document/Datastructrue/lib"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/lwb85/Documents/Document/Datastructrue/cmake-build-debug/CppBasic/Makefile&quot;  VERBOSE=1 vector/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/lwb85/Documents/Document/Datastructrue/cmake-build-debug/CppBasic/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/lwb85/Documents/Document/Datastructrue/cmake-build-debug/CppBasic/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/lwb85/Documents/Document/Datastructrue/cmake-build-debug/CppBasic/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ex1_1">
+				<Option output="/mnt/c/Users/lwb85/Documents/Document/Datastructrue/cmake-build-debug/CppBasic/ex1_1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/lwb85/Documents/Document/Datastructrue/cmake-build-debug/CppBasic"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/c/Users/lwb85/Documents/Document/Datastructrue/lib"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/lwb85/Documents/Document/Datastructrue/cmake-build-debug/CppBasic/Makefile&quot;  VERBOSE=1 ex1_1"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/lwb85/Documents/Document/Datastructrue/cmake-build-debug/CppBasic/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/lwb85/Documents/Document/Datastructrue/cmake-build-debug/CppBasic/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/lwb85/Documents/Document/Datastructrue/cmake-build-debug/CppBasic/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ex1_1/fast">
+				<Option output="/mnt/c/Users/lwb85/Documents/Document/Datastructrue/cmake-build-debug/CppBasic/ex1_1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/lwb85/Documents/Document/Datastructrue/cmake-build-debug/CppBasic"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/c/Users/lwb85/Documents/Document/Datastructrue/lib"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/lwb85/Documents/Document/Datastructrue/cmake-build-debug/CppBasic/Makefile&quot;  VERBOSE=1 ex1_1/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/lwb85/Documents/Document/Datastructrue/cmake-build-debug/CppBasic/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/lwb85/Documents/Document/Datastructrue/cmake-build-debug/CppBasic/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/lwb85/Documents/Document/Datastructrue/cmake-build-debug/CppBasic/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="balancing_symbols">
+				<Option output="/mnt/c/Users/lwb85/Documents/Document/Datastructrue/cmake-build-debug/Chapter03/balancing_symbols" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/lwb85/Documents/Document/Datastructrue/cmake-build-debug/Chapter03"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/c/Users/lwb85/Documents/Document/Datastructrue/lib"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/lwb85/Documents/Document/Datastructrue/cmake-build-debug/Chapter03/Makefile&quot;  VERBOSE=1 balancing_symbols"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/lwb85/Documents/Document/Datastructrue/cmake-build-debug/Chapter03/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/lwb85/Documents/Document/Datastructrue/cmake-build-debug/Chapter03/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/lwb85/Documents/Document/Datastructrue/cmake-build-debug/Chapter03/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="balancing_symbols/fast">
+				<Option output="/mnt/c/Users/lwb85/Documents/Document/Datastructrue/cmake-build-debug/Chapter03/balancing_symbols" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/lwb85/Documents/Document/Datastructrue/cmake-build-debug/Chapter03"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/c/Users/lwb85/Documents/Document/Datastructrue/lib"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/lwb85/Documents/Document/Datastructrue/cmake-build-debug/Chapter03/Makefile&quot;  VERBOSE=1 balancing_symbols/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/lwb85/Documents/Document/Datastructrue/cmake-build-debug/Chapter03/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/lwb85/Documents/Document/Datastructrue/cmake-build-debug/Chapter03/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/lwb85/Documents/Document/Datastructrue/cmake-build-debug/Chapter03/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="list_main">
+				<Option output="/mnt/c/Users/lwb85/Documents/Document/Datastructrue/cmake-build-debug/Chapter03/list_main" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/lwb85/Documents/Document/Datastructrue/cmake-build-debug/Chapter03"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/c/Users/lwb85/Documents/Document/Datastructrue/lib"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/lwb85/Documents/Document/Datastructrue/cmake-build-debug/Chapter03/Makefile&quot;  VERBOSE=1 list_main"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/lwb85/Documents/Document/Datastructrue/cmake-build-debug/Chapter03/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/lwb85/Documents/Document/Datastructrue/cmake-build-debug/Chapter03/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/lwb85/Documents/Document/Datastructrue/cmake-build-debug/Chapter03/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="list_main/fast">
+				<Option output="/mnt/c/Users/lwb85/Documents/Document/Datastructrue/cmake-build-debug/Chapter03/list_main" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/lwb85/Documents/Document/Datastructrue/cmake-build-debug/Chapter03"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/c/Users/lwb85/Documents/Document/Datastructrue/lib"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/lwb85/Documents/Document/Datastructrue/cmake-build-debug/Chapter03/Makefile&quot;  VERBOSE=1 list_main/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/lwb85/Documents/Document/Datastructrue/cmake-build-debug/Chapter03/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/lwb85/Documents/Document/Datastructrue/cmake-build-debug/Chapter03/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/lwb85/Documents/Document/Datastructrue/cmake-build-debug/Chapter03/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ex3_1">
+				<Option output="/mnt/c/Users/lwb85/Documents/Document/Datastructrue/cmake-build-debug/Chapter03/ex3_1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/lwb85/Documents/Document/Datastructrue/cmake-build-debug/Chapter03"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/c/Users/lwb85/Documents/Document/Datastructrue/lib"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/lwb85/Documents/Document/Datastructrue/cmake-build-debug/Chapter03/Makefile&quot;  VERBOSE=1 ex3_1"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/lwb85/Documents/Document/Datastructrue/cmake-build-debug/Chapter03/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/lwb85/Documents/Document/Datastructrue/cmake-build-debug/Chapter03/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/lwb85/Documents/Document/Datastructrue/cmake-build-debug/Chapter03/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ex3_1/fast">
+				<Option output="/mnt/c/Users/lwb85/Documents/Document/Datastructrue/cmake-build-debug/Chapter03/ex3_1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/lwb85/Documents/Document/Datastructrue/cmake-build-debug/Chapter03"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/c/Users/lwb85/Documents/Document/Datastructrue/lib"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/lwb85/Documents/Document/Datastructrue/cmake-build-debug/Chapter03/Makefile&quot;  VERBOSE=1 ex3_1/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/lwb85/Documents/Document/Datastructrue/cmake-build-debug/Chapter03/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/lwb85/Documents/Document/Datastructrue/cmake-build-debug/Chapter03/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/lwb85/Documents/Document/Datastructrue/cmake-build-debug/Chapter03/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ex3_23">
+				<Option output="/mnt/c/Users/lwb85/Documents/Document/Datastructrue/cmake-build-debug/Chapter03/ex3_23" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/lwb85/Documents/Document/Datastructrue/cmake-build-debug/Chapter03"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/c/Users/lwb85/Documents/Document/Datastructrue/lib"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/lwb85/Documents/Document/Datastructrue/cmake-build-debug/Chapter03/Makefile&quot;  VERBOSE=1 ex3_23"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/lwb85/Documents/Document/Datastructrue/cmake-build-debug/Chapter03/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/lwb85/Documents/Document/Datastructrue/cmake-build-debug/Chapter03/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/lwb85/Documents/Document/Datastructrue/cmake-build-debug/Chapter03/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ex3_23/fast">
+				<Option output="/mnt/c/Users/lwb85/Documents/Document/Datastructrue/cmake-build-debug/Chapter03/ex3_23" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/lwb85/Documents/Document/Datastructrue/cmake-build-debug/Chapter03"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/c/Users/lwb85/Documents/Document/Datastructrue/lib"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/lwb85/Documents/Document/Datastructrue/cmake-build-debug/Chapter03/Makefile&quot;  VERBOSE=1 ex3_23/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/lwb85/Documents/Document/Datastructrue/cmake-build-debug/Chapter03/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/lwb85/Documents/Document/Datastructrue/cmake-build-debug/Chapter03/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/lwb85/Documents/Document/Datastructrue/cmake-build-debug/Chapter03/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="main">
+				<Option output="/mnt/c/Users/lwb85/Documents/Document/Datastructrue/cmake-build-debug/Chapter03/main" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/lwb85/Documents/Document/Datastructrue/cmake-build-debug/Chapter03"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/c/Users/lwb85/Documents/Document/Datastructrue/lib"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/lwb85/Documents/Document/Datastructrue/cmake-build-debug/Chapter03/Makefile&quot;  VERBOSE=1 main"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/lwb85/Documents/Document/Datastructrue/cmake-build-debug/Chapter03/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/lwb85/Documents/Document/Datastructrue/cmake-build-debug/Chapter03/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/lwb85/Documents/Document/Datastructrue/cmake-build-debug/Chapter03/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="main/fast">
+				<Option output="/mnt/c/Users/lwb85/Documents/Document/Datastructrue/cmake-build-debug/Chapter03/main" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/lwb85/Documents/Document/Datastructrue/cmake-build-debug/Chapter03"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/c/Users/lwb85/Documents/Document/Datastructrue/lib"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/lwb85/Documents/Document/Datastructrue/cmake-build-debug/Chapter03/Makefile&quot;  VERBOSE=1 main/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/lwb85/Documents/Document/Datastructrue/cmake-build-debug/Chapter03/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/lwb85/Documents/Document/Datastructrue/cmake-build-debug/Chapter03/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/lwb85/Documents/Document/Datastructrue/cmake-build-debug/Chapter03/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="eof">
+				<Option output="/mnt/c/Users/lwb85/Documents/Document/Datastructrue/cmake-build-debug/Chapter03/eof" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/lwb85/Documents/Document/Datastructrue/cmake-build-debug/Chapter03"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/c/Users/lwb85/Documents/Document/Datastructrue/lib"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/lwb85/Documents/Document/Datastructrue/cmake-build-debug/Chapter03/Makefile&quot;  VERBOSE=1 eof"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/lwb85/Documents/Document/Datastructrue/cmake-build-debug/Chapter03/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/lwb85/Documents/Document/Datastructrue/cmake-build-debug/Chapter03/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/lwb85/Documents/Document/Datastructrue/cmake-build-debug/Chapter03/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="eof/fast">
+				<Option output="/mnt/c/Users/lwb85/Documents/Document/Datastructrue/cmake-build-debug/Chapter03/eof" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/lwb85/Documents/Document/Datastructrue/cmake-build-debug/Chapter03"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/c/Users/lwb85/Documents/Document/Datastructrue/lib"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/lwb85/Documents/Document/Datastructrue/cmake-build-debug/Chapter03/Makefile&quot;  VERBOSE=1 eof/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/lwb85/Documents/Document/Datastructrue/cmake-build-debug/Chapter03/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/lwb85/Documents/Document/Datastructrue/cmake-build-debug/Chapter03/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/lwb85/Documents/Document/Datastructrue/cmake-build-debug/Chapter03/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ex3_22">
+				<Option output="/mnt/c/Users/lwb85/Documents/Document/Datastructrue/cmake-build-debug/Chapter03/ex3_22" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/lwb85/Documents/Document/Datastructrue/cmake-build-debug/Chapter03"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/c/Users/lwb85/Documents/Document/Datastructrue/lib"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/lwb85/Documents/Document/Datastructrue/cmake-build-debug/Chapter03/Makefile&quot;  VERBOSE=1 ex3_22"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/lwb85/Documents/Document/Datastructrue/cmake-build-debug/Chapter03/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/lwb85/Documents/Document/Datastructrue/cmake-build-debug/Chapter03/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/lwb85/Documents/Document/Datastructrue/cmake-build-debug/Chapter03/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ex3_22/fast">
+				<Option output="/mnt/c/Users/lwb85/Documents/Document/Datastructrue/cmake-build-debug/Chapter03/ex3_22" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/lwb85/Documents/Document/Datastructrue/cmake-build-debug/Chapter03"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/c/Users/lwb85/Documents/Document/Datastructrue/lib"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/lwb85/Documents/Document/Datastructrue/cmake-build-debug/Chapter03/Makefile&quot;  VERBOSE=1 ex3_22/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/lwb85/Documents/Document/Datastructrue/cmake-build-debug/Chapter03/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/lwb85/Documents/Document/Datastructrue/cmake-build-debug/Chapter03/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/lwb85/Documents/Document/Datastructrue/cmake-build-debug/Chapter03/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ex3_3">
+				<Option output="/mnt/c/Users/lwb85/Documents/Document/Datastructrue/cmake-build-debug/Chapter03/ex3_3" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/lwb85/Documents/Document/Datastructrue/cmake-build-debug/Chapter03"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/c/Users/lwb85/Documents/Document/Datastructrue/lib"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/lwb85/Documents/Document/Datastructrue/cmake-build-debug/Chapter03/Makefile&quot;  VERBOSE=1 ex3_3"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/lwb85/Documents/Document/Datastructrue/cmake-build-debug/Chapter03/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/lwb85/Documents/Document/Datastructrue/cmake-build-debug/Chapter03/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/lwb85/Documents/Document/Datastructrue/cmake-build-debug/Chapter03/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ex3_3/fast">
+				<Option output="/mnt/c/Users/lwb85/Documents/Document/Datastructrue/cmake-build-debug/Chapter03/ex3_3" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/lwb85/Documents/Document/Datastructrue/cmake-build-debug/Chapter03"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/c/Users/lwb85/Documents/Document/Datastructrue/lib"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/lwb85/Documents/Document/Datastructrue/cmake-build-debug/Chapter03/Makefile&quot;  VERBOSE=1 ex3_3/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/lwb85/Documents/Document/Datastructrue/cmake-build-debug/Chapter03/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/lwb85/Documents/Document/Datastructrue/cmake-build-debug/Chapter03/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/lwb85/Documents/Document/Datastructrue/cmake-build-debug/Chapter03/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sstream_exp">
+				<Option output="/mnt/c/Users/lwb85/Documents/Document/Datastructrue/cmake-build-debug/Chapter03/sstream_exp" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/lwb85/Documents/Document/Datastructrue/cmake-build-debug/Chapter03"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/c/Users/lwb85/Documents/Document/Datastructrue/lib"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/lwb85/Documents/Document/Datastructrue/cmake-build-debug/Chapter03/Makefile&quot;  VERBOSE=1 sstream_exp"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/lwb85/Documents/Document/Datastructrue/cmake-build-debug/Chapter03/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/lwb85/Documents/Document/Datastructrue/cmake-build-debug/Chapter03/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/lwb85/Documents/Document/Datastructrue/cmake-build-debug/Chapter03/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sstream_exp/fast">
+				<Option output="/mnt/c/Users/lwb85/Documents/Document/Datastructrue/cmake-build-debug/Chapter03/sstream_exp" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/lwb85/Documents/Document/Datastructrue/cmake-build-debug/Chapter03"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/c/Users/lwb85/Documents/Document/Datastructrue/lib"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/lwb85/Documents/Document/Datastructrue/cmake-build-debug/Chapter03/Makefile&quot;  VERBOSE=1 sstream_exp/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/lwb85/Documents/Document/Datastructrue/cmake-build-debug/Chapter03/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/lwb85/Documents/Document/Datastructrue/cmake-build-debug/Chapter03/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/lwb85/Documents/Document/Datastructrue/cmake-build-debug/Chapter03/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="bst_main">
+				<Option output="/mnt/c/Users/lwb85/Documents/Document/Datastructrue/cmake-build-debug/Chapter04/bst_main" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/lwb85/Documents/Document/Datastructrue/cmake-build-debug/Chapter04"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/c/Users/lwb85/Documents/Document/Datastructrue/lib"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/lwb85/Documents/Document/Datastructrue/cmake-build-debug/Chapter04/Makefile&quot;  VERBOSE=1 bst_main"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/lwb85/Documents/Document/Datastructrue/cmake-build-debug/Chapter04/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/lwb85/Documents/Document/Datastructrue/cmake-build-debug/Chapter04/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/lwb85/Documents/Document/Datastructrue/cmake-build-debug/Chapter04/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="bst_main/fast">
+				<Option output="/mnt/c/Users/lwb85/Documents/Document/Datastructrue/cmake-build-debug/Chapter04/bst_main" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/lwb85/Documents/Document/Datastructrue/cmake-build-debug/Chapter04"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/c/Users/lwb85/Documents/Document/Datastructrue/lib"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/lwb85/Documents/Document/Datastructrue/cmake-build-debug/Chapter04/Makefile&quot;  VERBOSE=1 bst_main/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/lwb85/Documents/Document/Datastructrue/cmake-build-debug/Chapter04/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/lwb85/Documents/Document/Datastructrue/cmake-build-debug/Chapter04/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/lwb85/Documents/Document/Datastructrue/cmake-build-debug/Chapter04/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/mnt/c/Users/lwb85/Documents/Document/Datastructrue/Chapter03/List.h">
+			<Option target="list_main"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/lwb85/Documents/Document/Datastructrue/Chapter03/Vector.h">
+			<Option target="balancing_symbols"/>
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/lwb85/Documents/Document/Datastructrue/Chapter03/balancing_symbols.cpp">
+			<Option target="balancing_symbols"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/lwb85/Documents/Document/Datastructrue/Chapter03/eof.cpp">
+			<Option target="eof"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/lwb85/Documents/Document/Datastructrue/Chapter03/ex3_1.cpp">
+			<Option target="ex3_1"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/lwb85/Documents/Document/Datastructrue/Chapter03/ex3_22.cpp">
+			<Option target="ex3_22"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/lwb85/Documents/Document/Datastructrue/Chapter03/ex3_23.cpp">
+			<Option target="ex3_23"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/lwb85/Documents/Document/Datastructrue/Chapter03/ex3_3.cpp">
+			<Option target="ex3_3"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/lwb85/Documents/Document/Datastructrue/Chapter03/list_main.cpp">
+			<Option target="list_main"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/lwb85/Documents/Document/Datastructrue/Chapter03/main.cpp">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/lwb85/Documents/Document/Datastructrue/Chapter03/sstream_exp.cpp">
+			<Option target="sstream_exp"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/lwb85/Documents/Document/Datastructrue/Chapter04/Avl.h">
+			<Option target="bst_main"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/lwb85/Documents/Document/Datastructrue/Chapter04/BinarySearchTree.h">
+			<Option target="bst_main"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/lwb85/Documents/Document/Datastructrue/Chapter04/bst_main.cpp">
+			<Option target="bst_main"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/lwb85/Documents/Document/Datastructrue/CppBasic/big_five.cpp">
+			<Option target="big_five"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/lwb85/Documents/Document/Datastructrue/CppBasic/ex1_1.cpp">
+			<Option target="ex1_1"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/lwb85/Documents/Document/Datastructrue/CppBasic/ex1_1.h">
+			<Option target="ex1_1"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/lwb85/Documents/Document/Datastructrue/CppBasic/matirx.cpp">
+			<Option target="vector"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/lwb85/Documents/Document/Datastructrue/CppBasic/ones.cpp">
+			<Option target="ones"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/lwb85/Documents/Document/Datastructrue/CppBasic/round_up.cpp">
+			<Option target="round_up"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/lwb85/Documents/Document/Datastructrue/CppBasic/swap.cpp">
+			<Option target="swap"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/lwb85/Documents/Document/Datastructrue/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/lwb85/Documents/Document/Datastructrue/CppBasic/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\CppBasic\"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/lwb85/Documents/Document/Datastructrue/Chapter03/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Chapter03\"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/lwb85/Documents/Document/Datastructrue/Chapter04/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Chapter04\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
